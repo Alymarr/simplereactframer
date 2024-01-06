@@ -4,8 +4,8 @@ import WelcomePage from "./pages/Welcome.jsx";
 import ChallengesPage from "./pages/Challenges.jsx";
 
 const router = createBrowserRouter([
-  { path: "/simplereactframer", element: <WelcomePage /> },
-  { path: "/simplereactframer/challenges", element: <ChallengesPage /> },
+  { path: "/", element: <WelcomePage /> },
+  { path: "/challenges", element: <ChallengesPage /> },
 ]);
 
 function App() {
